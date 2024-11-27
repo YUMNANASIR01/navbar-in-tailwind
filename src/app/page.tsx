@@ -80,7 +80,7 @@ function Home() {
             <br />
           </div>
 
-          <div className="xsm:hidden md:hidden lg:flex flex-col  bg-gradient-to-r from-[#ec8f5a] to-[#8d66c0] w-full lg:w-1/2 p-4 sm:p-6 border-4 border-yellow-400">
+          <div className="hidden lg:flex flex-col  bg-gradient-to-r from-[#ec8f5a] to-[#8d66c0] w-full lg:w-1/2 p-4 sm:p-6 border-4 border-yellow-400">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
              <br />
             Suscipit numquam, nam, nostrum a alias incidunt temporibus quis
