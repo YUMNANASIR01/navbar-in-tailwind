@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
@@ -7,10 +8,8 @@ function Home() {
     <>
       <Navbar />
       <div className="w-full">
-        
-        <div className="w-full bg-gradient-to-r from-[#2e173d] via-[#b52fea] to-[#51375c] pl-[20px] sm:pl-[50px] pt-6 pb-6 text-white ">
+        <div className=" lg:hidden w-full bg-gradient-to-r from-[#2e173d] via-[#b52fea] to-[#51375c] pl-[20px] sm:pl-[50px] pt-6 pb-6 text-white">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-           
             <div>
               Lorem, ipsum dolor sit amet veritatis consectetur adipisicing elit.
               <br />
@@ -30,7 +29,6 @@ function Home() {
               <br />
             </div>
 
-          
             <div className="flex justify-center mt-4 lg:mt-0 lg:pr-10">
               <Image
                 src={'/bird.webp'}
@@ -43,9 +41,7 @@ function Home() {
           </div>
         </div>
 
-     
-        <div className="flex flex-col lg:flex-row flex-wrap">
-          
+        <div className="lg:mt-12 flex flex-col lg:flex-row flex-wrap lg:flex-nowrap ">
           <div className="flex flex-col bg-gradient-to-r from-[#32855d] to-[#829c9c] w-full lg:w-1/2 p-4 sm:p-6 border-4 border-yellow-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <br />
@@ -65,7 +61,6 @@ function Home() {
             <br />
           </div>
 
-       
           <div className="flex flex-col bg-gradient-to-r from-[#ec8f5a] to-[#8d66c0] w-full lg:w-1/2 p-4 sm:p-6 border-4 border-yellow-400">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             <br />
@@ -84,6 +79,24 @@ function Home() {
             aspernatur dolores ab cumque vitae architecto voluptates dolor
             <br />
           </div>
+
+          <div className="xsm:hidden md:hidden lg:flex flex-col  bg-gradient-to-r from-[#ec8f5a] to-[#8d66c0] w-full lg:w-1/2 p-4 sm:p-6 border-4 border-yellow-400">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             <br />
+            Suscipit numquam, nam, nostrum a alias incidunt temporibus quis
+             laudantium,
+             <br />
+             reprehenderit ipsum maiores fuga culpa vitae voluptates.
+             <br />
+            Cupiditate libero quisquam minima atque?
+             <br />             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+            distinctio ullam
+            <br />
+            qui libero velit sed atque adipisci inventore repudiandae ne
+            <br />
+            aspernatur dolores ab cumque vitae architecto voluptates dolor
+             <br />
+          </div>
         </div>
       </div>
     </>
@@ -91,6 +104,16 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+
+
+
+
+
+   
 
 
 
